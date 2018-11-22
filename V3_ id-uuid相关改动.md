@@ -14,15 +14,17 @@
 
   personSearchResults
 
-  ​	person_id -> uuid
+  	person_id -> uuid
 
   orgSearchResults
 
-  ​	org_id -> uuid
+  	org_id -> uuid
 
   projectSearchResults
 
-  ​	project_id ->uuid
+  	project_id -> uuid
+
+  机构、项目、人物搜索与综合相同
 
 #### 工商信息
 
@@ -117,6 +119,30 @@
 * 返回参数
 
   project_id -> uuid
+
+#### 新闻
+
+##### 查询新闻列表
+
+* 请求参数
+
+  id -> uuid
+
+* 返回参数
+
+  id -> uuid
+
+##### 查询新闻详情
+
+* 请求参数
+
+  id -> uuid
+
+* 返回参数
+
+  id -> uuid
+
+
 
 
 
